@@ -483,6 +483,7 @@ section.advantages {
     text-transform: uppercase;
     color: var(--text-dark-background);
     margin-bottom: 20px;
+    padding-top: 7px;
 }
 
 .social-media {
