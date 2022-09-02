@@ -115,6 +115,7 @@ border #ECECEC
     --light-background: #F5F4FA;
     --default-background: #fff;
     --border-light: #ECECEC;
+    --icon-color: #AFB1B8;
 }
 
 body {
@@ -141,6 +142,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     column-gap: 30px;
 }
 /*
@@ -396,7 +398,7 @@ section.advantages {
 .team-icon {
     width: 20px;
     height: 20px;
-    fill:#AFB1B8;
+    fill: var(--icon-color);
 }
 
 .team-svg:hover,
@@ -404,6 +406,35 @@ section.advantages {
     background-color: var(--accent-color);
 }
 
+/*team end*/
+
+/*clients*/
+.clients-item {
+    width: calc((100% - 5 * 30px)/6);
+}
+
+.clients-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+}
+
+.clients-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 106px;
+    fill: var(--icon-color);
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+    fill: var(--accent-color);
+}
 /* footer */
 .footer {
     padding: 60px 0;
