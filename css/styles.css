@@ -238,11 +238,10 @@ a.logo {
     max-width: 1600px;
     margin: 0 auto;
     padding: 200px 0;
-    background-image: url('../images/bg-pic.jpg');
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bg-pic.jpg');
     background-position: center;
     background-size: cover;
     background-color: var(--dark-background);
-    
 }
 
 .hero-title {
@@ -306,6 +305,7 @@ section.advantages {
     margin-bottom: 30px;
     height: 120px;
     background-color: var(--light-background);
+    border-radius: 4px;
 }
 
 .advantages-subtitle {
@@ -572,8 +572,9 @@ button.tab:focus {
 }
 
 .project-items:hover {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-            1px 4px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+                0px 4px 4px rgba(0, 0, 0, 0.06),
+                1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-wrap {
