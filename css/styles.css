@@ -40,20 +40,20 @@ li {
     margin: 0;
 }
 
-:focus,
+/*:focus,
 :active {
     outline: none;
-}
+}*/
 
 a {
     text-decoration: none;
     color: inherit;
 }
 
-a:focus,
+/*a:focus,
 a:active {
     outline: none;
-}
+}*/
 
 a,
 a:visited {
